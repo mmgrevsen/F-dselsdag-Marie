@@ -80,6 +80,16 @@ Alt kan betjenes med tastatur (svar kan også vælges med A/B/C eller 1/2/3),
 fokus flytter med til hver ny scene, og `prefers-reduced-motion` respekteres.
 Der indsamles ingen personlige oplysninger.
 
+## Del den som én enkelt fil
+
+```bash
+npm run build:artifact
+```
+
+Samler hele oplevelsen i `out/fodselsdag.html` – én fil med skrifttyper, styling
+og scripts bygget ind, så den kan åbnes eller hostes hvor som helst uden server.
+Kør den igen, når du har udfyldt detaljerne om biografturen.
+
 ## Deploy
 
 Statisk Next.js-app uden server-afhængigheder – kan hostes direkte på fx Vercel.
